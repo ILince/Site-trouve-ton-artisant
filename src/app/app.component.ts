@@ -1,14 +1,19 @@
-import { Component } from '@angular/core';
+import { Component } from "@angular/core";
 
 @Component({
-  selector: 'app-root',
+  selector: "app-root",
   template: `
-    <h1>Welcome to {{title}}!</h1>
+    <!-- header -->
+    <app-header></app-header>
 
-    <router-outlet />
+    <!-- main -->
+    <router-outlet></router-outlet>
+
+    <!-- Footer -->
+    <app-footer></app-footer>
   `,
-  styles: []
+  styles: [],
 })
 export class AppComponent {
-  title = 'ng-artisant-app';
+  title = "ng-artisant-app";
 }
