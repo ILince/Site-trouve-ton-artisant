@@ -102,7 +102,6 @@ import { Component } from "@angular/core";
   button:hover{
     text-decoration-line: underline;
     text-decoration-color: #fcfcfd;
-
   }
   `,
 })
