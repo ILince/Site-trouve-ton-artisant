@@ -5,7 +5,7 @@ import { Component } from "@angular/core";
   template: `
     <footer class="text-light p-4" style="background-color: #0074c7 ">
       <!-- Logo -->
-      <div class="container p-4" style="max-width: 1360px;">
+      <div class="container p-4" style="max-width: 1400px;">
         <a routerLink="/">
           <img
             alt="Trouve ton artiosant !. Avec la région Auvergne-Rhône-Alpes."
@@ -19,7 +19,7 @@ import { Component } from "@angular/core";
           <div>
             <div>
               <div>
-                <h2><strong>Lyon</strong></h2>
+                <h3><strong>Lyon</strong></h3>
                 <p>
                   <span
                     >101 cours Charlemagne<br />
@@ -31,10 +31,8 @@ import { Component } from "@angular/core";
                 </p>
                 <p>
                   <span
-                    ><a href="tel:33426734000"
-                      >+33 (0)4 26 73 40 00</a
-                    >
-                    De 8h30 à 17h du lundi au vendredi</span
+                    ><a href="tel:33426734000">+33 (0)4 26 73 40 00</a> De 8h30
+                    à 17h du lundi au vendredi</span
                   ><span
                     >Trams T1 et T2 - Arrêt Hôtel de Région - Montrochet</span
                   >
@@ -81,6 +79,12 @@ import { Component } from "@angular/core";
   styles: `
 
   /* Mentions links */
+  h3{
+    color:white;
+    border:none;
+    font-size:1.5em;
+    margin:10px 0px
+  }
   a{
     text-decoration: none;
     color:#fcfcfd;

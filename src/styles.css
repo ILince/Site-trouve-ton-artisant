@@ -1,1 +1,53 @@
-/* You can add global styles to this file, and also import other style files */
+/* global styles */
+@font-face {
+  font-family: "GraphickRegular" ;
+  src: url(./assets/fonts/Graphik-Family/Graphik-Regular-Trial.otf);
+}
+@font-face {
+  font-family: "Graphikbold" ;
+  src: url(./assets/fonts/Graphik-Family/Graphik-Bold-Trial.otf);
+}
+
+body{
+  font-family: "GraphickRegular", sans-serif;
+}
+.btn {
+  border-radius: 50px;
+  color: white;
+  background-color: #0074c7;
+  font-size: 1.1rem;
+  margin-top: 30px;
+  width: 160px;
+  padding: 4px;
+}
+
+.btn:hover{
+  background-color: #00497c;
+  color: white;
+}
+h2 {
+  font-family: "Graphikbold", sans-serif;
+  font-size: 2em;
+  font-weight: 100;
+  color: #00497c;
+  margin: 50px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: "Graphikbold", sans-serif;
+  font-weight: 700;
+  border-bottom: 10px solid #cce5ff;
+  color: #00497c;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+h4 {
+  color: #384050;
+  font-size: 1.3rem;
+  margin-bottom: 0px;
+}
+.active{
+  color:white;
+  background-color:red;
+}
